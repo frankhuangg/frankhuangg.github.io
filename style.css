@@ -1,0 +1,33 @@
+#container{
+    width:210px;
+    height:50px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.porn{
+    width:90px;
+    background-color: black;
+    display: inline-block;
+}
+.hub{
+    width:120px;
+    background-color: orange;
+    display: inline-block;
+}
+@media (min-width:300pt){
+    body
+    {
+        background:rgb(4, 0, 255);
+    }
+}
+@media (min-width:600pt){
+    body
+    {
+        background:rgb(0, 255, 76);
+    }
+}
+@media (min-width:900pt){
+    body
+    {
+        background:rgb(255, 0, 0);
+    }    
